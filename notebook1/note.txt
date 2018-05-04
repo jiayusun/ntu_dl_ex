@@ -1,0 +1,23 @@
+Aim:解决了绝大多数现有语义分割方法面临的类内不一致（intra-class inconsistency）
+与类间无差别（inter-class indistinction）问题
+
+类内不一致（intra-class inconsistency）:
+e.g.牛的左下角被识别为马
+
+so选择更具判断力的特征：
+Smooth Network-带有通道注意力模块（Channel Attention Block/CAB）和全局平均池化
+
+so区分边界两边的特征
+Border Network 多层语义边界监督
+
+类间无差别问题:
+电脑主机上的蓝光及黑色机壳与显示器相似，因此难以区分，
+
+#宏观的角度->语义分割，
+#label一类物体instead of单一像素
+so判别特征
+
+
+Chi-square distance
+https://stats.stackexchange.com/questions/184101/comparing-two-histograms-using-chi-square-distance
+
