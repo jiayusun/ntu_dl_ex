@@ -18,3 +18,4 @@ model.add( Convolution2D(25,3,3, input_shape=(1,28,28)))
                         25¸ö3*3filter  1:black 3:rgb
 
                         
+
